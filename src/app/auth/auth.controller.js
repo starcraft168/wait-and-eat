@@ -9,7 +9,7 @@
     
     function AuthController($location, $firebaseAuth, FIREBASE_URL) {
         var vm = this;
-        
+        //view model
         var firebaseReference = new Firebase(FIREBASE_URL);
         var firebaseAuthObject = $firebaseAuth(firebaseReference);
         
